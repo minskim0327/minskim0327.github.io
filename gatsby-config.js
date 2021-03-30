@@ -4,8 +4,8 @@ module.exports = {
   siteMetadata: {
     title: 'PORTILOG',
     description: 'Portfolio + TIL(Today I learned) + Blog for me.',
-    author: 'Hyungsun Song <hssongng@gmail.com>',
-    siteUrl: 'https://happy-nut.github.io/'
+    author: 'Minseok Kim <minskim0327@gmail.com>',
+    siteUrl: 'https://minskim0327.github.io/'
   },
   plugins: [
     // Local plugins.
@@ -17,8 +17,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://happy-nut.github.io/',
-        sitemap: 'https://happy-nut.github.io/sitemap.xml',
+        host: 'https://minskim0327.github.io/',
+        sitemap: 'https://minskim0327.github.io/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },
