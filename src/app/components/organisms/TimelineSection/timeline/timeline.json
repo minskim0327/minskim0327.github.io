@@ -2,122 +2,80 @@
   "events": [
     {
       "start_date": {
-        "year": "2013",
-        "month": "3"
+        "year": "2016",
+        "month": "9"
       },
       "end_date": {
-        "year": "2019",
-        "month": "2"
-      },
-      "text": {
-        "headline": "Konkuk Univ. 학사",
-        "text": "CS 기본 지식 (알고리즘, 자료구조, 프로그래밍, OS, 컴퓨터 구조 등) <ul><li>ICOKR 웹 사이트 제작 외주 경험</li><li>NYG iOS 앱 개발 외주 경험(출시)</li></ul>"
-      },
-      "media": {
-        "url": "https://www.konkuk.ac.kr/do/MessageBoard/ArticleFile.do?id=11791556",
-        "thumbnail": "https://upload.wikimedia.org/wikipedia/en/e/e6/KonKukUniv_Logo1.jpg",
-        "caption": "Konkuk University",
-        "link": "https://www.konkuk.ac.kr/do/Index.do",
-        "link_target": "_blank"
-      }
-    },
-    {
-      "start_date": {
-        "year": "2013",
+        "year": "2023",
         "month": "5"
       },
-      "end_date": {
-        "year": "2015",
-        "month": "12"
-      },
       "text": {
-        "headline": "FACT (해킹/보안 동아리)",
-        "text": "보안 기본 지식 (OWASP, 메모리 구조, Kali linux, 리버싱 기초, 포렌식 기초 등)<ul><li>CodeGate 외 다수 해킹 대회 출전 경험</li><li>웹해킹 & 머신 러닝 관련 세미나</li></ul>"
+        "headline": "University of Pennsylvania",
+        "text": "Majored in Computer and Information Science<ul><li>Teaching Assistant for Intermediate Computer Graphics</li><li>Teaching Assistant for Introduction to Computer Architecture</li><li>Particiapted in 2019 PennApps Hackathon</li></ul>"
       },
       "media": {
-        "url": "https://scontent.ficn2-1.fna.fbcdn.net/v/t1.0-1/10299969_398762096930992_2371397529809027655_n.png?_nc_cat=103&ccb=2&_nc_sid=dbb9e7&_nc_ohc=CRUgZ4iam9IAX8rduE2&_nc_ht=scontent.ficn2-1.fna&oh=65fa7a459a20e1097496ab9b5cba4804&oe=60270450",
-        "thumbnail": "https://scontent.ficn2-1.fna.fbcdn.net/v/t1.0-1/10299969_398762096930992_2371397529809027655_n.png?_nc_cat=103&ccb=2&_nc_sid=dbb9e7&_nc_ohc=CRUgZ4iam9IAX8rduE2&_nc_ht=scontent.ficn2-1.fna&oh=65fa7a459a20e1097496ab9b5cba4804&oe=60270450",
-        "caption": "동아리 로고",
-        "link": "https://www.facebook.com/secuFACT/",
-        "link_target": "_blank"
-      }
-    },
-    {
-      "start_date": {
-        "year": "2015",
-        "month": "1"
-      },
-      "end_date": {
-        "year": "2017",
-        "month": "1"
-      },
-      "text": {
-        "headline": "CERT(Korea Air Force)",
-        "text": "NAC, IPS 등 보안 장비 관리, 서버 관리, Python, PHP, JS<ul><li>15-4차 정보보호 보수과정 대상</li><li>공군 보안 공모전 IT 부문 최우수상 (교육사령관 상)</li></ul>"
-      },
-      "media": {
-        "url": "http://www.shinailbo.co.kr/news/photo/201703/561678_300468_5735.jpg",
-        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Logo_of_the_Republic_of_Korea_Air_Force.png",
-        "caption": "제 2회 공군 사이버 전사 경연대회 본선. 아쉽지만 나(오른쪽에서 두 번째)는 입상하지 못하였다.",
-        "link": "http://www.airforce.mil.kr",
+        "url": "https://dl.boxcloud.com/api/2.0/internal_files/552984198833/versions/586177654433/representations/png_paged_2048x2048/content/1.png?access_token=1!3BY2I-6lXgmaSti7KUUK4cLFdo1-EXMYT2BYiB1i5zkovxsJcOxtagPCjM-UjOwP94ovC9BeWuppD7PUnu68QpcersFclHZPqgM6REvSVRBeXs77-vihlsKgslYEUA3ZFwDYyxyFzfG-vSr5s9dAPXA0SVxbtW7xHbV30bpJ1tcGdjorHhaAg83ndN11Jsz40Sdot-ot3CmWiffJTzxQfmLgj5BjajXP7sUSgHG8m8bsjFPjyW1y7nJe9mot8aRzSAb6A5oOOGoy6UBunN3MkylBsbY8oqjAXyHr4GW38BUpF-5Y15Ny-3pewLf_zLbDi4bcgUUbuCoqoS-3mxqXVbmhQoyuH7HHa78afUTeIPnSChngry7Shm8MOrUR_E8vunj829b2JP_lm0QdvjQ5jdmfuR4aRvZypVzWzJLzOt21dMpBP0VFfJ3qF2KeAhx2HUikwi-VFumZZF8c9sGnbKpE-zd-CcJiGnUCwCLlYPL9rUzntUe9l0nWpEpx_irvnZgNQ0erO0jqteIUtK4O0nLU30NqdltnItVSLHeWENg521u4Gg3__w-jYq6jTqdgA_8LFJxpA6ck9FcX2VbBg_WZ6xvlRLtquXlNaY_3YghAN6qsouLBE3XtlRRwZhma1q51MIFZfLKaIjwztRP28Xr6gz8nsx8XJsxvzkmqlt77YsbyeGKEBqqNbZeyaQ_8gS83jS1jpQVjltQg7a7Q1pqxuMKNdzAw3TEujEp4aSCFf9JwNQ..&shared_link=https%3A%2F%2Fupenn.app.box.com%2Fs%2Fzxs8saffvdbrolcuexgqr9hjuwws5n6e&box_client_name=box-content-preview&box_client_version=2.68.0",
+        "thumbnail": "https://dl.boxcloud.com/api/2.0/internal_files/552984198833/versions/586177654433/representations/png_paged_2048x2048/content/1.png?access_token=1!3BY2I-6lXgmaSti7KUUK4cLFdo1-EXMYT2BYiB1i5zkovxsJcOxtagPCjM-UjOwP94ovC9BeWuppD7PUnu68QpcersFclHZPqgM6REvSVRBeXs77-vihlsKgslYEUA3ZFwDYyxyFzfG-vSr5s9dAPXA0SVxbtW7xHbV30bpJ1tcGdjorHhaAg83ndN11Jsz40Sdot-ot3CmWiffJTzxQfmLgj5BjajXP7sUSgHG8m8bsjFPjyW1y7nJe9mot8aRzSAb6A5oOOGoy6UBunN3MkylBsbY8oqjAXyHr4GW38BUpF-5Y15Ny-3pewLf_zLbDi4bcgUUbuCoqoS-3mxqXVbmhQoyuH7HHa78afUTeIPnSChngry7Shm8MOrUR_E8vunj829b2JP_lm0QdvjQ5jdmfuR4aRvZypVzWzJLzOt21dMpBP0VFfJ3qF2KeAhx2HUikwi-VFumZZF8c9sGnbKpE-zd-CcJiGnUCwCLlYPL9rUzntUe9l0nWpEpx_irvnZgNQ0erO0jqteIUtK4O0nLU30NqdltnItVSLHeWENg521u4Gg3__w-jYq6jTqdgA_8LFJxpA6ck9FcX2VbBg_WZ6xvlRLtquXlNaY_3YghAN6qsouLBE3XtlRRwZhma1q51MIFZfLKaIjwztRP28Xr6gz8nsx8XJsxvzkmqlt77YsbyeGKEBqqNbZeyaQ_8gS83jS1jpQVjltQg7a7Q1pqxuMKNdzAw3TEujEp4aSCFf9JwNQ..&shared_link=https%3A%2F%2Fupenn.app.box.com%2Fs%2Fzxs8saffvdbrolcuexgqr9hjuwws5n6e&box_client_name=box-content-preview&box_client_version=2.68.0",
+        "link": "https://www.upenn.edu/",
         "link_target": "_blank"
       }
     },
     {
       "start_date": {
         "year": "2017",
-        "month": "12"
+        "month": "9"
       },
       "end_date": {
-        "year": "2018",
-        "month": "12"
+        "year": "2019",
+        "month": "8"
       },
       "text": {
-        "headline": "Skelter Labs SWE(Intern)",
-        "text": "Android, iOS(Swift), Dagger, Protobuf, Java, Kafka, Jetty, Vue<ul><li>Cue Android, iOS 앱 개발</li><li>Bona wallet iOS, Android 앱 개발</li><li>Data 분석 용 대쉬보드 개발</li></ul>"
+        "headline": "Social Service Agent",
+        "text": "Served 2 years of mandatory military service at Ministry of National Defense.<ul><li>Transferred classifed documents between service stations</li><li>Managed community library datatbase.</li></ul>"
       },
       "media": {
-        "url": "https://res.heraldm.com/phpwas/restmb_idxmake.php?idx=142&simg=%2Fcontent%2Fimage%2F2017%2F10%2F20%2F20171020000558_0.jpg",
-        "thumbnail": "https://pds.saramin.co.kr/company/logo/202004/10/q8ju7q_5zcu-xpqgb0_logo.png",
-        "caption": "Skelter Labs 회사 성수역 사무실 이미지(이사 전)",
-        "link": "https://www.skelterlabs.com/ko/",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Emblem_of_the_Ministry_of_National_Defense_%28South_Korea%29_%28English%29.svg/1200px-Emblem_of_the_Ministry_of_National_Defense_%28South_Korea%29_%28English%29.svg.png",
+        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Emblem_of_the_Ministry_of_National_Defense_%28South_Korea%29_%28English%29.svg/1200px-Emblem_of_the_Ministry_of_National_Defense_%28South_Korea%29_%28English%29.svg.png",
+        "link": "https://www.mnd.go.kr/mbshome/mbs/mndEN/",
         "link_target": "_blank"
       }
     },
     {
       "start_date": {
-        "year": "2018",
-        "month": "12"
+        "year": "2020",
+        "month": "6"
       },
       "end_date": {
-        "year": "2019",
-        "month": "12"
+        "year": "2020",
+        "month": "6"
       },
       "text": {
-        "headline": "Skelter Labs SWE(Lv 3)",
-        "text": "Android, Kotlin, RxJava, Gradle, Bazel, React, Nodejs<ul><li>Android AWARE SDK 출시 & 배포</li><li>AWARE Dashboard 서버 개발</li></ul>"
+        "headline": "Onsquare SWE Intern",
+        "text": "Javascript, Typescript, Linux<ul><li>Implemented a client side photo editor analogous to Adobe Photoshop</li><li>Enabled 3-D graphic simulation feature on a web browser by applying three.js and physijs</li></ul>"
       },
       "media": {
-        "url": "https://fastly.4sqi.net/img/general/600x600/3994148_0jJtHnQQwnyQijMo-MVOhTprHi34p-tGWUlE90b9TzM.jpg",
-        "thumbnail": "https://pds.saramin.co.kr/company/logo/202004/10/q8ju7q_5zcu-xpqgb0_logo.png",
-        "caption": "Skelter Labs 회사 성수 사거리 사무실 이미지(이사 후)",
-        "link": "https://www.skelterlabs.com/ko/",
+        "url": "https://image.rocketpunch.com/company/2175/onsquare_logo_1556504292.png?s=400x400&t=inside",
+        "thumbnail": "https://image.rocketpunch.com/company/2175/onsquare_logo_1556504292.png?s=400x400&t=inside",
+        "link": "https://o-n2.com/",
         "link_target": "_blank"
       }
     },
     {
       "start_date": {
-        "year": "2019",
-        "month": "12"
+        "year": "2020",
+        "month": "7"
+      },
+      "end_date": {
+        "year": "2021",
+        "month": "3"
       },
       "text": {
-        "headline": "Skelter Labs SWE(Lv 4)",
-        "text": "TDD, BDD, DDD, Design doc, Typescript, React, Nestjs, k8s<ul><li>AIQ portal/console & 서버 개발</li><li>STT Billing Recorder 서버 개발</li><li>Scrum 마스터 경험</li></ul>"
+        "headline": "Skelter Labs SWE Intern",
+        "text": "Typescript, NodeJS, NestJS, React, Docker, Kubernetes, TDD, BDD, DDD<ul><li>Developed AIQ(AI Saas Platform) server using domain driven design</li><li>Enabled microservice communication using gRPC, istio gateway and envoy filter</li></ul>"
       },
       "media": {
         "url": "https://www.ksvalley.com/data/photos/20190834/art_15662700235499_e71ca9.png",
         "thumbnail": "https://pds.saramin.co.kr/company/logo/202004/10/q8ju7q_5zcu-xpqgb0_logo.png",
-        "caption": "Skelter Labs 로고",
         "link": "https://www.skelterlabs.com/ko/",
         "link_target": "_blank"
       }

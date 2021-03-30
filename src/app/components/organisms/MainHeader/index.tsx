@@ -40,12 +40,12 @@ const MainHeader: React.FC = () => {
 
   return (
     <Box display="flex" alignItems="center" justifyContent="space-between" py={2}>
-      <Link to="/">
+      <Link to='/'>
         <Box display="flex" alignItems="center">
           <Box className={classes.icon}>
             <LogoIcon />
           </Box>
-          <Typography className={classes.logoText} variant="button">happy-nut</Typography>
+          <Typography className={classes.logoText} variant="button">minskim0327</Typography>
         </Box>
       </Link>
       <Link to={latestPostPath}>

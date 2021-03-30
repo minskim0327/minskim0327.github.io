@@ -82,7 +82,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }))
 
-// TODO(poqw): Replace this with recent TIL posts.
+// TODO (minseok): Replace this with my posts.
 const tils = [
   {
     title: 'Today I Learned',
@@ -121,15 +121,16 @@ const TilSection: React.FC = () => {
         <Grid item xs={12} md={5}>
           <Typography variant="h1" className={classes.title}>✏️ Today I Learned</Typography>
           <Typography variant="h1" className={classes.subtitle}>
-            저는 끊임없이 배우고, 기록하며, 지식을 나누는 사람입니다.
+            TIL is records of what I learned today.
           </Typography>
           <Box mt={3} className={classes.descriptionContainer}>
             <Typography variant="body1" className={classes.description}>
-              {'그 과정 속에서 항상 \'왜?\' 라는 질문에 답하기 위해 노력합니다.'}
+              I am a person who loves <b>software development</b> and <b>jazz.</b>
             </Typography>
             <Typography variant="body1" className={classes.description}>
-              그리고 이 모든 노력은 저를 <b>어제보다 더 나은 사람</b>으로 만들어 줍니다.
+              TIL keeps track of daily learnings and updates on interesting news on topics above.
             </Typography>
+
           </Box>
           <Button
             component={Link}
@@ -141,7 +142,7 @@ const TilSection: React.FC = () => {
             to={latestPostPath}
           >
             <Typography variant="button" className={classes.buttonText}>
-              TIL 보러가기
+              Go to TIL
             </Typography>
           </Button>
         </Grid>

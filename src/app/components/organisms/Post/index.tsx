@@ -1,4 +1,5 @@
 import Box from '@material-ui/core/Box'
+import Divider from '@material-ui/core/Divider'
 import makeStyles from '@material-ui/core/styles/makeStyles'
 import { MDXProvider } from '@mdx-js/react'
 import AnchorJS from 'anchor-js'
@@ -19,7 +20,6 @@ import { H1, H2, H3, H4, H5, H6, Img, Ol, P, Ul } from '../../atoms/MdxComponent
 import SEO from '../../atoms/SEO'
 import CommentSection from '../../molecules/CommentSection'
 
-import { Divider } from '@material-ui/core'
 
 const useStyles = makeStyles({
   paper: {

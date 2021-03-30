@@ -6,7 +6,7 @@ import { animated, useTransition } from 'react-spring'
 
 const useStyles = makeStyles((theme) => ({
   title: {
-    fontSize: '4rem',
+    fontSize: '3rem',
     whiteSpace: 'pre-line',
     wordBreak: 'keep-all',
     fontWeight: 'bold',
@@ -20,7 +20,9 @@ const useStyles = makeStyles((theme) => ({
   },
   description: {
     marginTop: theme.spacing(2),
-    fontSize: '1.5rem',
+    fontSize: '2rem',
+    fontWeight: 'bold',
+    color: theme.palette._green[400],
     whiteSpace: 'pre-line',
     wordBreak: 'keep-all',
     willChange: 'transform, opacity',
@@ -37,11 +39,11 @@ const LandingSection: React.FC = () => {
   const classes = useStyles()
   const items = [
     {
-      value: '반갑습니다!\n개발🧑‍💻과 요리👨‍🍳를 좋아하는\nhappy-nut🥜 입니다.',
+      value: 'Welcome! My name is Min Kim.\nI am a junior studying Computer Science at\nUniversity of Pennsylvania.',
       className: classes.title
     },
     {
-      value: '저는 어떤 사람일까요? 👇',
+      value: 'More about me!👇',
       className: classes.description
     }
   ]

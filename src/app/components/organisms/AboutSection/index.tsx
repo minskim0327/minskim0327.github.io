@@ -3,7 +3,6 @@ import Box from '@material-ui/core/Box'
 import Grid from '@material-ui/core/Grid'
 import IconButton from '@material-ui/core/IconButton'
 import makeStyles from '@material-ui/core/styles/makeStyles'
-import FacebookIcon from '@material-ui/icons/Facebook'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import InstagramIcon from '@material-ui/icons/Instagram'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
@@ -141,7 +140,7 @@ const AboutSection: React.FC = () => {
 
   const profileQuery = useStaticQuery(graphql`
     query {
-      fileName: file(relativePath: { eq: "profile.jpeg" }) {
+      fileName: file(relativePath: { eq: "profile.png" }) {
         childImageSharp {
           fluid(maxWidth: 700, maxHeight: 700) {
             ...GatsbyImageSharpFluid
@@ -175,32 +174,32 @@ const AboutSection: React.FC = () => {
         <Grid item xs={12} md={5}>
           <Typography variant="h1" className={classes.title}>🧐 So, Who am I?</Typography>
           <Typography variant="h1" className={classes.subtitle}>
-              저는 ____ 하는 개발자입니다.
+              I am a ____ software developer.
           </Typography>
           <Box className={classes.descriptionContainer}>
             <Box pt={1.5}>
               <Typography variant="h4" className={classes.description}>
-                배움을 좋아
+                🤔 Curious
               </Typography>
               <Typography variant="body1" className={classes.subDescription}>
-                변태적으로 배울 점들을 수집하고 빠르게 흡수하려고 머리를 굴려요.
+                New technologies are flooding in software development, and why not bother catching up?
               </Typography>
             </Box>
             <Box pt={1.5}>
               <Typography variant="h4" className={classes.description}>
-                사람들과 어울리기를 좋아
+                🚀 High standarded
               </Typography>
               <Typography variant="body1" className={classes.subDescription}>
-                사람들과 어울리면 즐겁고, 즐거우면 일도 잘 되더라구요.
+                There always exists a better way of doing things, and software development is not an exception!
               </Typography>
             </Box>
             {matches &&
               <Box pt={1.5}>
                 <Typography variant="h4" className={classes.description}>
-                  요리를 좋아
+                 🎧 Music loving
                 </Typography>
                 <Typography variant="body1" className={classes.subDescription}>
-                  맛있게 먹어주면 그만큼 스트레스가 풀리는 게 없거든요.
+                  Music helps me concentrate for hours and put me into good mood!
                 </Typography>
               </Box>
             }
@@ -208,7 +207,7 @@ const AboutSection: React.FC = () => {
           <Box className={classes.iconContainer}>
             <IconButton
               className={classes.iconButton}
-              href="https://github.com/happy-nut"
+              href="https://github.com/minskim0327"
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -216,7 +215,7 @@ const AboutSection: React.FC = () => {
             </IconButton>
             <IconButton
               className={classes.iconButton}
-              href="https://www.linkedin.com/in/poqw"
+              href="https://www.linkedin.com/in/minskim0327"
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -224,7 +223,7 @@ const AboutSection: React.FC = () => {
             </IconButton>
             <IconButton
               className={classes.iconButton}
-              href="https://www.instagram.com/hssongng/"
+              href="https://www.instagram.com/minskim0327/"
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -232,15 +231,7 @@ const AboutSection: React.FC = () => {
             </IconButton>
             <IconButton
               className={classes.iconButton}
-              href="https://www.facebook.com/hssongng"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <FacebookIcon fontSize="large" />
-            </IconButton>
-            <IconButton
-              className={classes.iconButton}
-              href="mailto:happynut.dev@gmail.com"
+              href="mailto:minskim0327@gmail.com"
               target="_blank"
               rel="noreferrer noopener"
             >

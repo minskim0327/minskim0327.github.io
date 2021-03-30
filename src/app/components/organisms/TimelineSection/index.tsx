@@ -72,7 +72,7 @@ const initTimeline = (source): void => {
     // eslint-disable-next-line @typescript-eslint/camelcase
     start_at_end: true,
     dragging: false,
-    language: 'ko'
+    language: 'en'
   }
 
   // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
@@ -98,16 +98,11 @@ const TimelineSection: React.FC = () => {
   return (
     <Box height="100vh">
       <Box display="flex" justifyContent="center">
-        <Typography variant="h1" className={classes.title}>😎 Experiences</Typography>
+        <Typography variant="h1" className={classes.title}>✊ My Experiences</Typography>
       </Box>
       <Box display="flex" justifyContent="center">
         <Typography variant="subtitle1" className={classes.subtitle} align='center'>
-          저는 이런 경험들을 쌓아왔습니다.
-        </Typography>
-      </Box>
-      <Box display="flex" justifyContent="center">
-        <Typography variant="body1" className={classes.description} align='center'>
-          {'무작정 다양한 경험들을 쌓기보단,\n각 경험으로부터 배울 수 있는 점들을 흘리는 일 없이 오롯이 흡수하는 데 중점을 두려 노력합니다.'}
+          I strive to become a better software developer engineer.
         </Typography>
       </Box>
       <div className={classes.timelineContainer}>
