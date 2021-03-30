@@ -65,7 +65,7 @@ module.exports = {
             resolve: 'gatsby-remark-prismjs',
             options: {
               prompt: {
-                user: 'happy-nut',
+                user: 'minskim0327',
                 host: 'localhost',
                 global: true
               }

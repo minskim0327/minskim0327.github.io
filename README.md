@@ -5,7 +5,7 @@
 
 PORTILOG is Portfolio + TIL(Today I learend) + Blog.
 
-My PORTILOG is deployed at https://github.com/minskmi0327/minskim0327.github.io
+My PORTILOG is deployed at https://minskim0327.github.io/
 
 ## Reference
 
