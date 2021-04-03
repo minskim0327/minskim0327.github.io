@@ -5,6 +5,7 @@ import CardContent from '@material-ui/core/CardContent'
 import CardMedia from '@material-ui/core/CardMedia'
 import makeStyles from '@material-ui/core/styles/makeStyles'
 import React from 'react'
+import { Link } from 'gatsby'
 import { animated, useSpring } from 'react-spring'
 
 export const useStyles = makeStyles((theme) => ({
@@ -52,12 +53,13 @@ const trans = (x, y, s): string => {
 }
 
 interface Props {
+  link: string
   title: string
   description: string
   mediaImg: string
 }
 
-const TilCard: React.FC<Props> = ({ title, description, mediaImg }) => {
+const TilCard: React.FC<Props> = ({ link, title, description, mediaImg }) => {
   const classes = useStyles()
   const [props, set] = useSpring(() => ({
     xys: [0, 0, 1],
@@ -72,23 +74,25 @@ const TilCard: React.FC<Props> = ({ title, description, mediaImg }) => {
       // @ts-ignore
       style={{ transform: props.xys.interpolate(trans) }}
     >
-      <Card className={classes.root}>
-        <Box display="flex" flexDirection="column" className={classes.contentContainer}>
-          <CardContent>
-            <Typography variant="h3" className={classes.title}>{title}</Typography>
-            <div className={classes.description}>
-              <Typography variant="body1" color="textSecondary">
-                {description}
-              </Typography>
-            </div>
-          </CardContent>
-        </Box>
-        <CardMedia
-          className={classes.media}
-          image={mediaImg}
-          title={`media: ${title}`}
-        />
-      </Card>
+      <Link to={link}>
+        <Card className={classes.root}>
+          <Box display="flex" flexDirection="column" className={classes.contentContainer}>
+            <CardContent>
+              <Typography variant="h3" className={classes.title}>{title}</Typography>
+              <div className={classes.description}>
+                <Typography variant="body1" color="textSecondary">
+                  {description}
+                </Typography>
+              </div>
+            </CardContent>
+          </Box>
+          <CardMedia
+            className={classes.media}
+            image={mediaImg}
+            title={`media: ${title}`}
+          />
+        </Card>
+      </Link>
     </animated.div>
   )
 }

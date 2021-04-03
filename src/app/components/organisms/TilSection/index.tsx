@@ -85,19 +85,22 @@ const useStyles = makeStyles((theme) => ({
 // TODO (minseok): Replace this with my posts.
 const tils = [
   {
-    title: 'Today I Learned',
-    description: '나의 TIL은 다음 목표를 가진다.\n1. 아는 것도 다시 보는 습관을 길러 의도적 수련을 유도한다.\n.2. 점진적으로 개선되는 나만의 노트를 만든다.\n.3. 지식을 공유한다.',
-    mediaImg: 'https://media.vlpt.us/images/hyounglee/post/22417c83-7c63-44d2-b230-fe795e67b137/til-01.png'
+    title: 'Keys in RDBMS',
+    description: 'This document deals with concepts related to keys in relational database.',
+    mediaImg: 'https://community-cdn-digitalocean-com.global.ssl.fastly.net/variants/nha7XM3be77CtxxXUgDuVirp/035575f2985fe451d86e717d73691e533a1a00545d7230900ed786341dc3c882',
+    link: "/tils/DEV/database/relational/keys"
   },
   {
     title: 'TDD: Test Driven Development',
     description: '테스트 주도 개발(Test-driven development, TDD)은 매우 짧은 개발 사이클을 반복하는 소프트웨어 개발 프로세스 중 하나이다. 우선 개발자는 바라는 향상 또는 새로운 함수를 정의하는 (초기적 결함을 점검하는) 자동화된 테스트 케이스를 작성한다.',
-    mediaImg: 'https://www.xenonstack.com/images/blog/Test-Driven-Development-in-Java.png'
+    mediaImg: 'https://www.xenonstack.com/images/blog/Test-Driven-Development-in-Java.png',
+    link: "/tils/DEV/database/relational/keys"
   },
   {
     title: 'Scrum',
     description: '스크럼은 비즈니스 요구를 충족시키는데 초점을 맞추기 위해, 작은 목표를 짧은 주기로 점진적이며 경험적으로 제품을 지속적으로 개발(전달)하는 관리 프레임워크이다.',
-    mediaImg: 'https://tms-outsource.com/blog/wp-content/uploads/2019/02/agile-working-1.jpg'
+    mediaImg: 'https://tms-outsource.com/blog/wp-content/uploads/2019/02/agile-working-1.jpg',
+    link: "/tils/DEV/database/relational/keys"
   }
 ]
 
@@ -152,13 +155,14 @@ const TilSection: React.FC = () => {
             {_.map(tilsToDisplay, (til) => {
               return (
                 <Box mb={3} key={til.title}>
-                  <Link to={latestPostPath}>
+                  {/* <Link to={latestPostPath}> */}
                     <TilCard
+                      link={til.link}
                       title={til.title}
                       description={til.description}
                       mediaImg={til.mediaImg}
                     />
-                  </Link>
+                  {/* </Link> */}
                 </Box>
               )
             })}
