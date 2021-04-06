@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://minskim0327.github.io/tils/JAZZ/JohnColtrain/TODO</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://minskim0327.github.io/tils/DEV/frontend/react/TODO</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://minskim0327.github.io/tils/DEV/database/relational/keys</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minskim0327.github.io/tils/DEV/devops/docker/TODO</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://minskim0327.github.io/tils/DEV/system-design/scalability/scalability</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://minskim0327.github.io/tils/JAZZ/JohnColtrain/TODO</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minskim0327.github.io/tils/DEV/database/relational/relationships</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://minskim0327.github.io/tils/DEV/database/mysql/TODO</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://minskim0327.github.io/tils/DEV/frontend/react/TODO</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minskim0327.github.io/tils/DEV/code-design/FactoryPattern</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://minskim0327.github.io/tils/DEV/backend/api/REST</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://minskim0327.github.io/tils/DEV/database/relational/keys</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://minskim0327.github.io/tils/DEV/database/mysql/TODO</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://minskim0327.github.io/tils/DEV/database/relational/normalization</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minskim0327.github.io/tils/DEV/backend/api/gRPC</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://minskim0327.github.io/tils/DEV/backend/api/REST</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://minskim0327.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
