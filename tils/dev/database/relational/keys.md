@@ -5,8 +5,11 @@
 1. [Common Properties](#CommonProperties)
 2. [Lookup Table](#LookUpTable)
 3. [Super Key vs Candiate Key](#SuperCandidate)
-
-
+4. [Primary Key vs Alternate Key](#PrimaryAlternate)
+5. [Surrogate Key vs Natural Key](#SurrogateNatural)
+6. [Foriegn Key](#Foriegn)
+    1. [Foriegn Key Constraints](#ForiegnConstraint)
+7. [Composite vs Compound Key](#CompositeCompound)
 
 ## Common Properties.<a name="CommonProperties"></a>
 
@@ -95,7 +98,7 @@ Let there be an employee table.
  | 11345       | minskim      | Min                        |
  | 22345       | raylee       | Ray                        |
  | 33345       | jackWhite    | Jack                       |
- | 44345       | JohnAdam     | Min                       |
+ | 44345       | JohnAdam     | Min                        |
  +-------------+--------------+----------------------------+
 ```
 
@@ -113,4 +116,86 @@ The `Candidate Keys` are the following.
 - {ssn}
 - {id}
 
+## Primary vs Alternate Key<a name="PrimaryAlternate />
 
+A `Primary Key` can be regarded as a combination of `Candiadate Keys`. Primary key is thus a specific
+ choice of a minimal set of attributes (columns) that uniquely specify a tuple (row).
+
+An `Alternate Key` is the rest of the `Candidate Keys` that were not selected as `Primary Key` in the table.
+
+## Surrogate vs Natural Key<a name="SurrogateNatural" />
+
+A `Surrogate Key` is a key which does not have anyu contextual or real-world meaning i.e. the value is only
+meaningful in the database.
+
+A `Natural Key` is a key that has contextual or real-world meaning, such as email, password, date, etc. 
+
+## Foreign Key<a name="Foreign" />
+
+A `Foriegn Key` is a key that is used to reference `Primary Keys`.
+
+Let there be a class table.
+
+```
+ +-------------+----------+----------------------------+
+ |                      class                          |
+ +-------------+----------+----------------------------+
+ | id      | building_id  | instructor_id              |
+ +-------------+----------+----------------------------+
+ | 1       | 12           | 123                        |
+ | 2       | 24           | 124                        |
+ | 3       | 36           | 152                        |
+ +-------------+----------+----------------------------+
+```
+
+The id is the primary key for the class table, while building_id and instructor_id, are foriegn keys that reference
+the primary keys in building and instructor table.
+
+Note that the value of the primary key must not change, but that the value of foreign key can change when the referenced row changes.
+
+### Foriegn Key Constraints<a name="ForeignConstraint" />
+
+This section is explained in terms of MySQL.
+
+A `Foreign Key Constraint` is used to prevent actions that would destroy links bewteen tables.
+
+When an `UPDATE` or `DELETE` operation affects a key value in the parent table that is referenced by
+foreign key in the child table, the result is dependent on the `referential action` specified.
+
+Some of the referential actions include:
+
+- `CASCADE`: Delete or update the row from the parent table and automatically delete or update the matching rows in the child table.
+
+- `RESTRICT`: Rejects the delete or update operation for the parent table. 
+
+- `SET NULL`: Delete or update the row from the parent table and set the foreign key column or columns in the child table to NULL.
+
+Examples of the MySQL query statements are as following: 
+
+``` 
+CREATE TABLE parent (
+    id INT NOT NULL,
+    PRIMARY KEY (id)
+) ENGINE=INNODB;
+
+CREATE TABLE child (
+    id INT,
+    parent_id INT,
+    INDEX par_ind (parent_id),
+    FOREIGN KEY (parent_id)
+        REFERENCES parent(id)
+        ON DELETE CASCADE
+) ENGINE=INNODB;
+```
+
+Note that in mysql, foriegn key constraint is only viable if both the parent and child tables use the same
+storage engine.
+
+There are more information regarding restrictions and referentail actions in this [link](#https://dev.mysql.com/doc/refman/5.6/en/create-table-foreign-keys.html).
+
+## Composite vs Compound Key<a name="CompositeCompound" />
+
+A `Composite Key` is a key that consists of two or more columns that uniquley identify an entity occurrence. This
+key is frequently used in intermediarytables in many to many relationships.
+
+A `Compound Key` is a composite key where each column itself is a simple key in its own right.
