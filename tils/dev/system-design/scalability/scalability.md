@@ -11,7 +11,6 @@
         2. [Stateless](#Stateless)
 4. [Scalability Principle](#ScalabilityPrinciple)
 
-
 ## What is Scalability<a name="What" />
 
 Scalability is the property of a system to handle a growing amount of work by adding resources to the system.
