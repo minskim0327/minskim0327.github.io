@@ -79,6 +79,24 @@
         "link": "https://www.skelterlabs.com/ko/",
         "link_target": "_blank"
       }
+    },
+    {
+      "start_date": {
+        "year": "2021",
+        "month": "6"
+      },
+      "end_date": {
+        "year": "2021",
+        "month": "8"
+      },
+      "text": {
+        "headline": "Google SWE Intern",
+        "text": "<b>Search Team</b>, Typescript, Angular, TDD<ul><li>Built a web platform that collects cursor movement and eye tracking data on Google Search to enhance customer experience</li><li>Employed test driven design development to write secure code and agile methodology to efficiently communicate</li></ul>"
+      },
+      "media": {
+        "url": "https://www.edigitalagency.com.au/wp-content/uploads/google-logo-png-transparent-background-large-new.png",
+        "thumbnail": "https://www.edigitalagency.com.au/wp-content/uploads/google-logo-icon-PNG-Transparent-Background-letter-G-multiple-colors.png"
+      }
     }
   ]
 }
