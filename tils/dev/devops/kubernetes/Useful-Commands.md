@@ -58,8 +58,9 @@ Imperative
 ```
 kubectl run redis --image=redis:alpine --dry-run=client -oyaml > redis-pod.yaml
 ```
-kubecl create ns <namespace>
-
+```
+kubect l create ns <namespace>
+```
 To create a pod and then expose a service at a single step,
 
 run the following command.
