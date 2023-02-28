@@ -39,7 +39,7 @@ const LandingSection: React.FC = () => {
   const classes = useStyles()
   const items = [
     {
-      value: 'Welcome! My name is Min Kim.\nI am a junior studying Computer Science at\nUniversity of Pennsylvania.',
+      value: 'Welcome! My name is Min Kim.\nI am a senior studying Computer Science at\nUniversity of Pennsylvania.',
       className: classes.title
     },
     {

@@ -97,6 +97,24 @@
         "url": "https://www.edigitalagency.com.au/wp-content/uploads/google-logo-png-transparent-background-large-new.png",
         "thumbnail": "https://www.edigitalagency.com.au/wp-content/uploads/google-logo-icon-PNG-Transparent-Background-letter-G-multiple-colors.png"
       }
+    },
+    {
+      "start_date": {
+        "year": "2022",
+        "month": "5"
+      },
+      "end_date": {
+        "year": "2022",
+        "month": "8"
+      },
+      "text": {
+        "headline": "Google SWE Intern",
+        "text": "<b>Spanner Team</b>, Typescript, C++, <ul><li>Designed and implemented gPRC API endpoints to enable clients to share private query plans with specific users by redefining the Access Control List</li><li>Enhanced developer experience by adding graphic representation of query execution time</li></ul>"
+      },
+      "media": {
+        "url": "https://www.edigitalagency.com.au/wp-content/uploads/google-logo-png-transparent-background-large-new.png",
+        "thumbnail": "https://www.edigitalagency.com.au/wp-content/uploads/google-logo-icon-PNG-Transparent-Background-letter-G-multiple-colors.png"
+      }
     }
   ]
 }
